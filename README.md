@@ -13,7 +13,14 @@
 - **📂 File Manager**: VS Code-powered editor (Monaco) with drag-and-drop uploads, file editing, and management.
 - **📊 Live Monitoring**: Real-time telemetry for CPU, Memory, Disk, and Network usage (1s updates).
 - **🔒 Secure Access**: JWT-based authentication with local SQLite database.
-- **⚡ Single Binary**: One executable contains the entire frontend and backend. Zero dependencies (no PHP, Python, or Node.js runtime required on server).
+- **⚡ Single Binary**: One executable contains the entire frontend and backend. Zero dependencies.
+
+## Repository Structure
+
+- `app/`: Main application frontend (Next.js).
+- `website/`: Marketing landing page (Next.js).
+- `main.go`: Go backend entry point.
+- `app_backend/`: Shared backend libraries.
 
 ## Quick Install
 
@@ -37,8 +44,8 @@ Vibeserver consists of a **Next.js frontend** and a **Go backend**. The frontend
 - **Go** 1.23+
 - **Node.js** 20+
 
-### 1. Build Frontend
-First, compile the Next.js application into static assets.
+### 1. Build Frontend (Application)
+First, compile the main application into static assets.
 
 ```bash
 # Navigate to the project root
@@ -46,6 +53,8 @@ npm install
 npm run build
 ```
 *This command generates an `out` directory containing the static UI.*
+
+> **Note**: To build the landing page (documentation site), go to the `website` directory and run `npm install && npm run build`.
 
 ### 2. Build Backend
 Next, compile the Go binary. It will automatically embed the `out` directory created in the previous step.
