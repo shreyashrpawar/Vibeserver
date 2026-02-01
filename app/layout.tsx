@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Vibeserver",
+  metadataBase: new URL('https://vibeserver.netlify.app'),
   description: "A modern VPS management dashboard",
   icons: {
     icon: "/icon.svg",

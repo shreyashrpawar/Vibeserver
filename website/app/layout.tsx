@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vibeserver.io'),
+  metadataBase: new URL('https://vibeserver.netlify.app'),
   title: "Vibeserver - Modern VPS Management Dashboard",
   description: "Vibeserver is a lightweight, self-hosted Linux server manager that lets developers manage files, run terminal commands, and monitor servers over SSH from their browser.",
   icons: {

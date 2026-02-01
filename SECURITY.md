@@ -4,7 +4,7 @@
 
 We take security seriously. If you discover a security vulnerability within Vibeserver, please do **NOT** open a public issue.
 
-Instead, please send an email to **security@vibeserver.io** (or your preferred contact).
+Instead, please contact us via **[INSERT CONTACT METHOD]**.
 
 Please include:
 - A description of the vulnerability.

@@ -4,7 +4,7 @@
 
 **No Cloud. No SaaS. 100% Self-Hosted.**
 
-![Vibeserver Banner](https://vibeserver.io/og-image.png)
+![Vibeserver Banner](https://vibeserver.netlify.app/og-image.png)
 
 ## Features
 
